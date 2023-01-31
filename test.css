@@ -1,0 +1,91 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+#side-div {
+  width: 30%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #393D47;
+  display: flex;
+  flex-direction: column;
+}
+.side-div-containers{
+  height: 25%;
+}
+.side-div-containers:nth-of-type(1){
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.side-div-containers:nth-of-type(2){
+  display: flex;
+    flex-direction: column;
+}
+.side-div-containers:nth-of-type(3){
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#main-div {
+  height: 100%;
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  background-color: azure;
+}
+#text-div {
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+#chartContainer1{
+  width: 100%;
+  display: inline-block;
+  height: 50%;
+}
+.topics:hover{
+  background-color: grey;
+}
+.topics > p{
+  color: white;
+}
+.titles{
+  color: grey;
+}
+#info-container, #chartContainer2{
+  width: 50%;
+  height: 100%;
+}
+#info-container h2{
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 0;
+    height: 20%;
+}
+#info-div{
+  text-align: left;
+  margin-left: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+#info-div > div{
+  height: 25%;
+}
+#info-div > div > p{
+ margin: 0;
+}
